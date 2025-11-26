@@ -1,0 +1,23 @@
+body { 
+    font-family: 'Sarabun', sans-serif; 
+}
+
+h1, h2, h3, h4, h5, h6, .nav-link { 
+    font-family: 'Kanit', sans-serif; 
+}
+
+/* Floating Animation for Hero Image Elements */
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+}
+
+.animate-float {
+    animation: float 3s ease-in-out infinite;
+}
+
+.animate-float-delayed {
+    animation: float 3s ease-in-out infinite;
+    animation-delay: 1.5s;
+}
