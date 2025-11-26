@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const targetElement = document.querySelector(targetId);
             
             if (targetElement) {
-                const headerOffset = 80;
+                const headerOffset = 80; // Adjust this value if your fixed header height changes
                 const elementPosition = targetElement.getBoundingClientRect().top;
                 const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
     
